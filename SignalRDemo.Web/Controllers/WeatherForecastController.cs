@@ -27,6 +27,7 @@ namespace SignalRDemo.Web.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             Console.WriteLine("Hello from vs!!");
+            Console.WriteLine("Hello from git!");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
